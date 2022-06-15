@@ -31,6 +31,13 @@ body {
   color: var(--clr-neutral-100);
 }
 
+.btn {
+  display: block;
+  padding: calc(var(--spacer) / 2) var(--spacer);
+  text-decoration: none;
+  color: inherit;
+}
+
 .header {
   padding: 0 var(--content-padding);
   display: flex;
@@ -77,6 +84,7 @@ body {
   flex-direction: column;
   align-items: center;
 }
+
 .article__image {
   width: 100px;
   height: 100px;
