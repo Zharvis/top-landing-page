@@ -66,6 +66,17 @@ body {
   color: var(--clr-primary);
 }
 
+.articles {
+  display: flex;
+  justify-content: center;
+  gap: var(--spacer);
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .article__image {
   width: 100px;
   height: 100px;
