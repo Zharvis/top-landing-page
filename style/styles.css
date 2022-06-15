@@ -28,6 +28,7 @@
 body {
   background-color: var(--clr-primary);
   font-family: "Roboto", sans-serif;
+  color: var(--clr-neutral-100);
 }
 
 .header {
@@ -48,6 +49,10 @@ body {
   gap: var(--spacer);
 }
 
+.hero__text {
+  color: var(--clr-neutral-200);
+}
+
 .hero__image {
   width: calc((100vw - var(--spacer) - 2 * var(--content-padding)) / 2);
   height: 100px;
@@ -58,10 +63,12 @@ body {
 .other-articles {
   background-color: var(--clr-neutral-100);
   padding: 0 var(--content-padding);
+  color: var(--clr-primary);
 }
 .quote {
   background-color: var(--clr-neutral-200);
   padding: 0 var(--content-padding);
+  color: var(--clr-primary);
 }
 .signup {
   background-color: var(--clr-neutral-100);
