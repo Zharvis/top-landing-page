@@ -21,3 +21,17 @@
   --fs-500: 36px;
   --fs-600: 48px;
 }
+
+body {
+  background-color: var(--clr-primary);
+}
+
+.other-articles {
+  background-color: var(--clr-neutral-100);
+}
+.quote {
+  background-color: var(--clr-neutral-200);
+}
+.signup {
+  background-color: var(--clr-neutral-100);
+}
