@@ -42,6 +42,8 @@ body {
 
 .hero {
   padding: 0 var(--content-padding);
+  display: flex;
+  justify-content: center;
 }
 
 .other-articles {
