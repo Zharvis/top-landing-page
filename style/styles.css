@@ -32,10 +32,11 @@ body {
 }
 
 .btn {
-  display: block;
-  padding: calc(var(--spacer) / 2) var(--spacer);
+  display: inline-block;
+  padding: calc(var(--spacer) / 4) var(--spacer);
   text-decoration: none;
   color: inherit;
+  border-radius: 8px;
 }
 
 .header {
@@ -58,6 +59,10 @@ body {
 
 .hero__description {
   color: var(--clr-neutral-200);
+}
+
+.hero__btn {
+  background-color: var(--clr-accent);
 }
 
 .hero__image {
