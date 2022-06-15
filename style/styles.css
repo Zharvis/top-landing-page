@@ -75,6 +75,10 @@ body {
   padding: 0 var(--content-padding);
 }
 
+.signup__banner {
+  background-color: var(--clr-accent);
+}
+
 .footer {
   padding: 0 var(--content-padding);
 }
