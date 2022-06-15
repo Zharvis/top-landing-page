@@ -56,7 +56,7 @@ body {
   gap: var(--spacer);
 }
 
-.hero__text {
+.hero__description {
   color: var(--clr-neutral-200);
 }
 
