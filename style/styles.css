@@ -31,6 +31,13 @@ body {
 
 .header {
   padding: 0 var(--content-padding);
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__items {
+  display: flex;
+  gap: 1rem;
 }
 
 .hero {
