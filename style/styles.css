@@ -26,6 +26,7 @@
 
 body {
   background-color: var(--clr-primary);
+  font-family: "Roboto", sans-serif;
 }
 
 .header {
