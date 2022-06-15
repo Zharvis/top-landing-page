@@ -110,6 +110,10 @@ body {
   background-color: var(--clr-accent);
 }
 
+.signup__btn {
+  border: 2px solid var(--clr-neutral-100);
+}
+
 .footer {
   padding: 0 var(--content-padding);
   display: flex;
