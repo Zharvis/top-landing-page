@@ -22,6 +22,7 @@
   --fs-600: 48px;
 
   --content-padding: 8rem;
+  --spacer: 2rem;
 }
 
 body {
@@ -44,6 +45,14 @@ body {
   padding: 0 var(--content-padding);
   display: flex;
   justify-content: center;
+  gap: var(--spacer);
+}
+
+.hero__image {
+  width: calc((100vw - var(--spacer) - 2 * var(--content-padding)) / 2);
+  height: 100px;
+  background-color: aliceblue;
+  flex-shrink: 0;
 }
 
 .other-articles {
