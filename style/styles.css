@@ -9,3 +9,15 @@
   padding: 0;
   font: inherit;
 }
+
+:root {
+  --clr-primary: hsl(215, 28%, 17%);
+  --clr-accent: hsl(217, 91%, 59%);
+  --clr-neutral-100: hsl(90, 17%, 98%);
+  --clr-neutral-200: hsl(220, 13%, 91%);
+
+  --fs-200: 18px;
+  --fs-400: 24px;
+  --fs-500: 36px;
+  --fs-600: 48px;
+}
