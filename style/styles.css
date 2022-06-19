@@ -157,6 +157,10 @@ body {
 .signup__banner {
   background-color: var(--clr-accent);
   padding: var(--spacer-m) var(--spacer-xl);
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .signup__title {
