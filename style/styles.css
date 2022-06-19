@@ -28,12 +28,6 @@ body {
   color: var(--clr-neutral-100);
 }
 
-/* doesn't work because of specificity */
-section {
-  padding-top: calc(2 * var(--spacer));
-  padding-bottom: calc(2 * var(--spacer));
-}
-
 .btn {
   display: inline-block;
   padding: calc(var(--spacer) / 4) var(--spacer);
