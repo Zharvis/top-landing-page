@@ -24,6 +24,8 @@
   --spacer-m: 2rem;
   --spacer-l: 4rem;
   --spacer-xl: 8rem;
+
+  --article-size: 12rem;
 }
 
 body {
@@ -99,7 +101,7 @@ body {
 .articles {
   display: flex;
   justify-content: center;
-  gap: var(--spacer-m);
+  gap: var(--spacer-l);
 }
 
 .article {
@@ -109,9 +111,15 @@ body {
 }
 
 .article__image {
-  width: 100px;
-  height: 100px;
+  width: var(--article-size);
+  height: var(--article-size);
   border: 2px solid var(--clr-accent);
+  border-radius: 8px;
+  margin-bottom: var(--spacer-xs);
+}
+
+.article__description {
+  width: var(--article-size);
 }
 
 .quote {
