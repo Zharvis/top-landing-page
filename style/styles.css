@@ -45,7 +45,7 @@ body {
 }
 
 .header {
-  padding: 0 var(--content-padding);
+  padding: var(--spacer-s) var(--content-padding);
   display: flex;
   justify-content: space-between;
 }
@@ -180,7 +180,7 @@ body {
 }
 
 .footer {
-  padding: var(--spacer-xs) var(--content-padding);
+  padding: var(--spacer-m) var(--content-padding);
   display: flex;
   justify-content: center;
 }
