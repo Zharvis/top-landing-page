@@ -120,8 +120,8 @@ body {
 .article__image {
   width: var(--article-size);
   height: var(--article-size);
-  border: 2px solid var(--clr-accent);
-  border-radius: 8px;
+  border: 4px solid var(--clr-accent);
+  border-radius: 16px;
   margin-bottom: var(--spacer-xs);
 }
 
