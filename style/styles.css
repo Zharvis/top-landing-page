@@ -89,11 +89,15 @@ body {
 
 .other-articles {
   background-color: var(--clr-neutral-100);
-  padding: var(--spacer-xl) var(--content-padding);
+  padding: 0 var(--content-padding) var(--spacer-xl);
   color: var(--clr-primary);
 }
 
-.other-articles > h2 {
+.articles__heading {
+  height: var(--spacer-xl);
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 36px;
   font-weight: 900;
 }
