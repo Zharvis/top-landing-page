@@ -134,6 +134,7 @@ body {
 
 .article__description {
   width: var(--article-size);
+  text-align: center;
 }
 
 .quote {
