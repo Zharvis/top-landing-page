@@ -18,8 +18,12 @@
   --fs-500: 36px;
   --fs-600: 48px;
 
-  --content-padding: 16rem;
-  --spacer: 2rem;
+  --content-padding: 24rem;
+  --spacer-xs: 0.5rem;
+  --spacer-s: 1rem;
+  --spacer-m: 2rem;
+  --spacer-l: 4rem;
+  --spacer-xl: 8rem;
 }
 
 body {
@@ -31,10 +35,11 @@ body {
 
 .btn {
   display: inline-block;
-  padding: calc(var(--spacer) / 4) var(--spacer);
+  padding: var(--spacer-xs) var(--spacer-m);
   text-decoration: none;
   color: inherit;
   border-radius: 8px;
+  font-weight: 900;
 }
 
 .header {
@@ -45,22 +50,24 @@ body {
 
 .header__logo {
   font-size: 24px;
+  font-weight: 900;
 }
 
 .header__items {
   display: flex;
-  gap: 1rem;
+  gap: var(--spacer-s);
 }
 
 .hero {
-  padding: var(--spacer) var(--content-padding);
+  padding: var(--spacer-xl) var(--content-padding);
   display: flex;
   justify-content: center;
-  gap: var(--spacer);
+  gap: var(--spacer-l);
 }
 
 .hero__text > h1 {
   font-size: 48px;
+  font-weight: 900;
 }
 
 .hero__description {
@@ -72,7 +79,7 @@ body {
 }
 
 .hero__image {
-  width: calc((100vw - var(--spacer) - 2 * var(--content-padding)) / 2);
+  width: calc((100vw - var(--spacer-m) - 2 * var(--content-padding)) / 2);
   height: 100px;
   background-color: hsl(0, 0%, 48%);
   flex-shrink: 0;
@@ -80,18 +87,19 @@ body {
 
 .other-articles {
   background-color: var(--clr-neutral-100);
-  padding: var(--spacer) var(--content-padding);
+  padding: var(--spacer-xl) var(--content-padding);
   color: var(--clr-primary);
 }
 
 .other-articles > h2 {
   font-size: 36px;
+  font-weight: 900;
 }
 
 .articles {
   display: flex;
   justify-content: center;
-  gap: var(--spacer);
+  gap: var(--spacer-m);
 }
 
 .article {
@@ -108,25 +116,33 @@ body {
 
 .quote {
   background-color: var(--clr-neutral-200);
-  padding: var(--spacer) var(--content-padding);
+  padding: var(--spacer-xl) var(--content-padding);
   color: var(--clr-primary);
 }
 
 .quote__content {
   font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.quote__author {
+  font-weight: 900;
 }
 
 .signup {
   background-color: var(--clr-neutral-100);
-  padding: var(--spacer) var(--content-padding);
+  padding: var(--spacer-xl) var(--content-padding);
 }
 
 .signup__banner {
   background-color: var(--clr-accent);
+  padding: var(--spacer-m) var(--spacer-xl);
 }
 
 .signup__title {
   font-size: 24px;
+  font-weight: 900;
 }
 
 .signup__btn {
@@ -134,7 +150,7 @@ body {
 }
 
 .footer {
-  padding: 0 var(--content-padding);
+  padding: var(--spacer-xs) var(--content-padding);
   display: flex;
   justify-content: center;
 }
