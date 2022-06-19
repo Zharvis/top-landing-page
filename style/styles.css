@@ -81,8 +81,11 @@ body {
 }
 
 .hero__image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: calc((100vw - var(--spacer-m) - 2 * var(--content-padding)) / 2);
-  height: 100px;
+  height: 256px;
   background-color: hsl(0, 0%, 48%);
   flex-shrink: 0;
 }
